@@ -17,14 +17,9 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-6">
         <nav className="flex items-center justify-between">
           <div className="flex items-center gap-2 group cursor-pointer">
-            <div className="w-10 h-10 bg-primary-teal rounded-lg flex items-center justify-center transition-transform group-hover:scale-110">
-              <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M12 4v16m8-8H4" />
-              </svg>
+            <div className="w-14 h-14 flex items-center justify-center transition-transform group-hover:scale-110">
+              <img src="/logo.png" alt="SimpleScripts" className="w-full h-full object-contain filter brightness-0 invert" />
             </div>
-            <span className="text-2xl font-semibold text-white tracking-tight">
-              Simple<span className="text-primary-teal">Scripts</span>
-            </span>
           </div>
 
           <div className="hidden md:flex items-center gap-8">

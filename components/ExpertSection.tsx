@@ -4,7 +4,7 @@ import { EXPERTS } from '../constants';
 
 const ExpertSection: React.FC = () => {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 bg-brand-light">
       <div className="container mx-auto px-6">
         <div className="max-w-2xl mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary-navy mb-6 tracking-tight">Trusted by leading medical experts.</h2>

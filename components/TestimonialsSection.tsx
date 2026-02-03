@@ -27,7 +27,7 @@ const TestimonialCard: React.FC<{ img: string; quote: string; author: string; ro
 
 const TestimonialsSection: React.FC = () => {
   return (
-    <section className="py-24 bg-brand-light">
+    <section className="py-24 bg-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary-navy mb-4">Verified outcomes. <br className="md:hidden" /> Real members.</h2>
