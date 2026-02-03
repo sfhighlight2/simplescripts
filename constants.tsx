@@ -37,6 +37,27 @@ export const PRODUCTS: Product[] = [
   }
 ];
 
+export const TESTIMONIALS = [
+  {
+    img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?aut=format&fit=crop&q=80&w=800",
+    quote: "SimpleScripts changed my metabolic approach. Down 22lbs in 3 months with zero stress. The platform is incredibly easy to use.",
+    author: "Marcus J.",
+    role: "Weight Loss Protocol"
+  },
+  {
+    img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?aut=format&fit=crop&q=80&w=800",
+    quote: "The NAD+ injections were a game changer for my morning energy levels. I feel 10 years younger and much more focused.",
+    author: "David R.",
+    role: "Energy & Longevity"
+  },
+  {
+    img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?aut=format&fit=crop&q=80&w=800",
+    quote: "Finally a telehealth company that treats performance with clinical seriousness and total simplicity. High-quality support.",
+    author: "Robert T.",
+    role: "Muscle Support"
+  }
+];
+
 export const EXPERTS: Expert[] = [
   {
     name: 'Dr. Halland Chen, M.D.',
