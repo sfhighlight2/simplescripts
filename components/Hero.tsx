@@ -26,23 +26,23 @@ const Hero: React.FC = () => {
   }, [subIndex, index, reverse]);
 
   return (
-    <section className="pt-32 pb-24 overflow-hidden">
+    <section className="pt-40 pb-24 bg-brand-light overflow-hidden">
       <div className="container mx-auto px-6">
         <div className="max-w-7xl mx-auto text-center">
 
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight text-zinc-900 mb-8 leading-tight min-h-[120px] md:min-h-0">
-            <span className="text-zinc-400 block md:inline">{words[index].substring(0, subIndex)}</span>
+          <h1 className="text-[48px] md:text-[56px] lg:text-[64px] font-bold tracking-tight text-primary-navy mb-8 leading-[1.1] min-h-[120px] md:min-h-0">
+            <span className="text-primary-teal block md:inline">{words[index].substring(0, subIndex)}</span>
             <br className="md:hidden" />
             <span className="block md:inline ml-0 md:ml-4">tailored to you</span>
           </h1>
-          <p className="text-xl text-zinc-600 max-w-2xl mx-auto mb-10 font-medium">
+          <p className="text-[18px] text-secondary-text max-w-2xl mx-auto mb-10 font-secondary">
             Look, feel and perform your best every day. High-quality prescription wellness delivered to your door.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-16">
-            <button className="bg-zinc-900 text-white px-10 py-4 rounded-full font-semibold text-lg hover:bg-zinc-800 transition-all shadow-xl">
+            <button className="bg-primary-teal text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-xl active:scale-95">
               Get Started
             </button>
-            <button className="bg-white text-zinc-900 border border-zinc-200 px-10 py-4 rounded-full font-semibold text-lg hover:bg-zinc-50 transition-all">
+            <button className="bg-transparent text-primary-navy border-2 border-primary-navy px-10 py-4 rounded-full font-bold text-lg hover:bg-primary-navy hover:text-white transition-all">
               Browse Protocols
             </button>
           </div>

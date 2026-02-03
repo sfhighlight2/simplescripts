@@ -16,7 +16,7 @@ export const PRODUCTS: Product[] = [
     title: 'Sermorelin Injections',
     subtitle: 'for muscle support',
     price: 'From $126 first month',
-    image: 'https://images.unsplash.com/photo-1587854692152-cbe660dbbb88?q=80&w=2069&auto=format&fit=crop', // Medical vial placeholder
+    image: '/vial_glp1.png',
     category: 'strength'
   },
   {
@@ -24,7 +24,7 @@ export const PRODUCTS: Product[] = [
     title: 'NAD+ Injections',
     subtitle: 'for energy and longevity',
     price: 'From $145 first month',
-    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?q=80&w=2030&auto=format&fit=crop', // Blue vial placeholder
+    image: '/vial_glp1.png',
     category: 'anti-aging'
   },
   {
@@ -32,7 +32,7 @@ export const PRODUCTS: Product[] = [
     title: 'MIC+B12 Therapy',
     subtitle: 'for mood and energy',
     price: 'As low as $106/mo',
-    image: 'https://images.unsplash.com/photo-1612277795421-9bc7706a4a34?q=80&w=2070&auto=format&fit=crop', // Glass vial placeholder
+    image: '/vial_glp1.png',
     category: 'mood'
   }
 ];
