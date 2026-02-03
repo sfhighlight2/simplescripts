@@ -24,7 +24,7 @@ export const PRODUCTS: Product[] = [
     title: 'NAD+ Injections',
     subtitle: 'for energy and longevity',
     price: 'From $145 first month',
-    image: '/vial_glp1.png',
+    image: '/nad.jpg',
     category: 'anti-aging'
   },
   {
@@ -32,7 +32,7 @@ export const PRODUCTS: Product[] = [
     title: 'MIC+B12 Therapy',
     subtitle: 'for mood and energy',
     price: 'As low as $106/mo',
-    image: '/vial_glp1.png',
+    image: '/sermorelin.jpg',
     category: 'mood'
   }
 ];
