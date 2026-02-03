@@ -17,8 +17,8 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-6">
         <nav className="flex items-center justify-between">
           <div className="flex items-center gap-2 group cursor-pointer">
-            <div className="w-14 h-14 flex items-center justify-center transition-transform group-hover:scale-110">
-              <img src="/logo.png" alt="SimpleScripts" className="w-full h-full object-contain filter brightness-0 invert" />
+            <div className="flex items-center justify-center transition-transform group-hover:scale-110">
+              <img src="/logo.png" alt="SimpleScripts" className="w-[225px] h-auto object-contain filter brightness-0 invert" />
             </div>
           </div>
 

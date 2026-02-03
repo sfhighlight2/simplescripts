@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-24">
           <div className="space-y-8">
             <a href="/" className="inline-block">
-              <img src="/logo.png" alt="SimpleScripts" className="w-12 h-12 object-contain filter brightness-0 invert" />
+              <img src="/logo.png" alt="SimpleScripts" className="w-32 h-auto object-contain filter brightness-0 invert" />
             </a>
             <p className="text-white/60 text-sm leading-relaxed font-secondary">
               Sign up to receive health tips and early access to new treatments.
