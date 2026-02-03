@@ -26,8 +26,19 @@ const Hero: React.FC = () => {
   }, [subIndex, index, reverse]);
 
   return (
-    <section className="pt-40 pb-24 bg-brand-light overflow-hidden">
-      <div className="container mx-auto px-6">
+  return (
+    <section className="relative pt-48 pb-32 overflow-hidden bg-brand-light">
+      {/* Background Image with Overlay */}
+      <div className="absolute inset-0 z-0">
+        <img
+          src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=2000"
+          alt="Modern Wellness Clinic"
+          className="w-full h-full object-cover opacity-20"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-brand-light via-brand-light/95 to-brand-light" />
+      </div>
+
+      <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-7xl mx-auto text-center">
 
           <h1 className="text-[48px] md:text-[56px] lg:text-[64px] font-bold tracking-tight text-primary-navy mb-8 leading-[1.1] min-h-[120px] md:min-h-0">
@@ -35,24 +46,24 @@ const Hero: React.FC = () => {
             <br className="md:hidden" />
             <span className="block md:inline ml-0 md:ml-4">tailored to you</span>
           </h1>
-          <p className="text-[18px] text-secondary-text max-w-2xl mx-auto mb-10 font-secondary">
+          <p className="text-[18px] text-secondary-text max-w-2xl mx-auto mb-10 font-secondary leading-relaxed">
             Look, feel and perform your best every day. High-quality prescription wellness delivered to your door.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-16">
-            <button className="bg-primary-teal text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-xl active:scale-95">
+            <button className="bg-primary-teal text-white px-10 py-4 rounded-full font-semibold text-lg hover:bg-opacity-90 transition-all shadow-xl active:scale-95">
               Get Started
             </button>
-            <button className="bg-transparent text-primary-navy border-2 border-primary-navy px-10 py-4 rounded-full font-bold text-lg hover:bg-primary-navy hover:text-white transition-all">
+            <button className="bg-transparent text-primary-navy border-2 border-primary-navy px-10 py-4 rounded-full font-semibold text-lg hover:bg-primary-navy hover:text-white transition-all shadow-sm">
               Browse Protocols
             </button>
           </div>
-          <div className="flex flex-wrap justify-center gap-8 text-sm font-semibold text-zinc-500">
+          <div className="flex flex-wrap justify-center gap-8 text-sm font-bold text-primary-navy/40 uppercase tracking-widest">
             <span className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" /><path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h.01a1 1 0 100-2H10zm3 0a1 1 0 000 2h.01a1 1 0 100-2H13zM7 13a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h.01a1 1 0 100-2H10zm3 0a1 1 0 000 2h.01a1 1 0 100-2H13z" clipRule="evenodd" /></svg>
+              <svg className="w-5 h-5 text-primary-teal" fill="currentColor" viewBox="0 0 20 20"><path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" /><path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h.01a1 1 0 100-2H10zm3 0a1 1 0 000 2h.01a1 1 0 100-2H13zM7 13a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h.01a1 1 0 100-2H10zm3 0a1 1 0 000 2h.01a1 1 0 100-2H13z" clipRule="evenodd" /></svg>
               127,000+ members
             </span>
             <span className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path d="M8 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" /><path d="M3 4a1 1 0 00-1 1v10a1 1 0 001 1h1.05a2.5 2.5 0 014.9 0H10a1 1 0 001-1V5a1 1 0 00-1-1H3zM14 7a1 1 0 00-1 1v6.05A2.5 2.5 0 0115.95 16H17a1 1 0 001-1v-5a1 1 0 00-.293-.707l-2-2A1 1 0 0015 7h-1z" /></svg>
+              <svg className="w-5 h-5 text-primary-teal" fill="currentColor" viewBox="0 0 20 20"><path d="M8 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" /><path d="M3 4a1 1 0 00-1 1v10a1 1 0 001 1h1.05a2.5 2.5 0 014.9 0H10a1 1 0 001-1V5a1 1 0 00-1-1H3zM14 7a1 1 0 00-1 1v6.05A2.5 2.5 0 0115.95 16H17a1 1 0 001-1v-5a1 1 0 00-.293-.707l-2-2A1 1 0 0015 7h-1z" /></svg>
               Free expedited shipping
             </span>
           </div>
