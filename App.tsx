@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Marquee from './components/Marquee';
 import WhySection from './components/WhySection';
 import ServicesSection from './components/ServicesSection';
+import ProcessSection from './components/ProcessSection';
 import TestimonialsSection from './components/TestimonialsSection';
 import ExpertSection from './components/ExpertSection';
 import HealthAssistant from './components/HealthAssistant';
@@ -18,6 +19,7 @@ const App: React.FC = () => {
       <main>
         <Hero />
         <ServicesSection />
+        <ProcessSection />
         <Marquee />
         <WhySection />
 
