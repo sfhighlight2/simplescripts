@@ -8,7 +8,7 @@ export const PRODUCTS: Product[] = [
     title: 'Personalized GLP-1 Treatments',
     subtitle: 'for weight loss',
     price: 'From $119 first month',
-    image: '/vial_glp1.png',
+    image: '/glp1.jpg',
     category: 'weight-loss'
   },
   {
