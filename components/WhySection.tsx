@@ -42,8 +42,8 @@ const WhySection: React.FC = () => {
           <div className="lg:w-1/2 relative">
             <div className="aspect-[4/5] rounded-[3rem] overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1631217816694-a0d961e9b5a2?auto=format&fit=crop&q=80&w=1200"
-                alt="Personalized Medical Care"
+                src="/delivery.png"
+                alt="Personalized Medical Care Delivery"
                 className="w-full h-full object-cover"
               />
             </div>
