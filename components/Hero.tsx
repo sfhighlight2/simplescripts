@@ -29,10 +29,9 @@ const Hero: React.FC = () => {
     <section className="pt-32 pb-24 overflow-hidden">
       <div className="container mx-auto px-6">
         <div className="max-w-7xl mx-auto text-center">
-          
+
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight text-zinc-900 mb-8 leading-tight min-h-[120px] md:min-h-0">
             <span className="text-zinc-400 block md:inline">{words[index].substring(0, subIndex)}</span>
-            <span className="animate-pulse">|</span>
             <br className="md:hidden" />
             <span className="block md:inline ml-0 md:ml-4">tailored to you</span>
           </h1>
@@ -40,12 +39,12 @@ const Hero: React.FC = () => {
             Look, feel and perform your best every day. High-quality prescription wellness delivered to your door.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-16">
-             <button className="bg-zinc-900 text-white px-10 py-4 rounded-full font-semibold text-lg hover:bg-zinc-800 transition-all shadow-xl">
-               Get Started
-             </button>
-             <button className="bg-white text-zinc-900 border border-zinc-200 px-10 py-4 rounded-full font-semibold text-lg hover:bg-zinc-50 transition-all">
-               Browse Protocols
-             </button>
+            <button className="bg-zinc-900 text-white px-10 py-4 rounded-full font-semibold text-lg hover:bg-zinc-800 transition-all shadow-xl">
+              Get Started
+            </button>
+            <button className="bg-white text-zinc-900 border border-zinc-200 px-10 py-4 rounded-full font-semibold text-lg hover:bg-zinc-50 transition-all">
+              Browse Protocols
+            </button>
           </div>
           <div className="flex flex-wrap justify-center gap-8 text-sm font-semibold text-zinc-500">
             <span className="flex items-center gap-2">
