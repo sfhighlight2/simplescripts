@@ -22,7 +22,7 @@ const Header: React.FC = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M12 4v16m8-8H4" />
               </svg>
             </div>
-            <span className="text-2xl font-bold text-white tracking-tight">
+            <span className="text-2xl font-semibold text-white tracking-tight">
               Simple<span className="text-primary-teal">Scripts</span>
             </span>
           </div>
@@ -32,7 +32,7 @@ const Header: React.FC = () => {
               <a
                 key={item}
                 href={`#${item.toLowerCase().replace(' ', '-')}`}
-                className="text-sm font-semibold text-white/80 hover:text-primary-teal transition-colors"
+                className="text-sm font-medium text-white/80 hover:text-primary-teal transition-colors"
               >
                 {item}
               </a>
@@ -40,10 +40,10 @@ const Header: React.FC = () => {
           </div>
 
           <div className="flex items-center gap-6">
-            <button className="hidden sm:block text-sm font-semibold text-white/80 hover:text-white transition-colors">
+            <button className="hidden sm:block text-sm font-medium text-white/80 hover:text-white transition-colors">
               Login
             </button>
-            <button className="bg-primary-teal text-white px-6 py-2.5 rounded-full font-bold text-sm hover:bg-opacity-90 transition-all shadow-md active:scale-95">
+            <button className="bg-primary-teal text-white px-6 py-2.5 rounded-full font-semibold text-sm hover:bg-opacity-90 transition-all shadow-md active:scale-95">
               Get Started
             </button>
           </div>
