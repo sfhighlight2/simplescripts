@@ -17,8 +17,13 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-6">
         <nav className="flex items-center justify-between">
           <div className="flex items-center gap-2 group cursor-pointer">
-            <div className="flex items-center justify-center transition-transform group-hover:scale-110">
-              <img src="/logo.png" alt="SimpleScripts" className="w-[225px] h-auto object-contain filter brightness-0 invert" />
+            <div className="flex items-center justify-center transition-all duration-300 group-hover:scale-110">
+              <img
+                src="/logo.png"
+                alt="SimpleScripts"
+                className={`object-contain filter brightness-0 invert transition-all duration-300 ${isScrolled ? 'w-[120px]' : 'w-[225px]'
+                  } h-auto`}
+              />
             </div>
           </div>
 

@@ -16,7 +16,7 @@ export const PRODUCTS: Product[] = [
     title: 'Sermorelin Injections',
     subtitle: 'for muscle support',
     price: 'From $126 first month',
-    image: '/vial_glp1.png',
+    image: '/sermorelin.jpg',
     category: 'strength'
   },
   {
