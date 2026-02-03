@@ -26,7 +26,6 @@ const Hero: React.FC = () => {
   }, [subIndex, index, reverse]);
 
   return (
-  return (
     <section className="relative pt-48 pb-32 overflow-hidden bg-brand-light">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
